@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/todayupdate">
+
+    <fragment
+        android:id="@+id/todayupdate"
+        android:name="com.kuldeepsiraswar.zookaresult.Today_Update"
+        android:label="@string/today_updates"
+        tools:layout="@layout/today_update_nested_tab" />
+
+    <fragment
+        android:id="@+id/latestjobs"
+        android:name="com.kuldeepsiraswar.zookaresult.Jobs"
+        android:label="@string/latest_jobs"
+        tools:layout="@layout/new_jobs_nested_tab" />
+    <fragment
+        android:id="@+id/result"
+        android:name="com.kuldeepsiraswar.zookaresult.Result"
+        android:label="@string/latest_result"
+        tools:layout="@layout/result_nested_tab" />
+
+    <fragment
+        android:id="@+id/admitcard"
+        android:name="com.kuldeepsiraswar.zookaresult.AdmitCard"
+        android:label="@string/admit_card"
+        tools:layout="@layout/webview" />
+    <fragment
+        android:id="@+id/notification"
+        android:name="com.kuldeepsiraswar.zookaresult.Notification"
+        android:label="@string/notification_news"
+        tools:layout="@layout/webview" />
+    <fragment
+        android:id="@+id/universityform"
+        android:name="com.kuldeepsiraswar.zookaresult.University"
+        android:label="@string/university_form"
+        tools:layout="@layout/webview" />
+    <fragment
+        android:id="@+id/entranceexam"
+        android:name="com.kuldeepsiraswar.zookaresult.Admission"
+        android:label="@string/entrance_exams"
+        tools:layout="@layout/webview" />
+    <fragment
+        android:id="@+id/onlineservice"
+        android:name="com.kuldeepsiraswar.zookaresult.Certificate"
+        android:label="@string/online_services"
+        tools:layout="@layout/webview" />
+    <fragment
+        android:id="@+id/schoolarshipform"
+        android:name="com.kuldeepsiraswar.zookaresult.Schoolarship"
+        android:label="@string/schoolarship_form"
+        tools:layout="@layout/webview" />
+
+    <fragment
+        android:id="@+id/answerkey"
+        android:name="com.kuldeepsiraswar.zookaresult.Answerkey"
+        android:label="@string/answer_key"
+        tools:layout="@layout/webview" />
+    <fragment
+        android:id="@+id/cutoff"
+        android:name="com.kuldeepsiraswar.zookaresult.Cutoff"
+        android:label="@string/cut_off"
+        tools:layout="@layout/webview" />
+    <fragment
+        android:id="@+id/syllaus"
+        android:name="com.kuldeepsiraswar.zookaresult.Syllabus"
+        android:label="@string/syllabus"
+        tools:layout="@layout/webview" />
+
+</navigation>

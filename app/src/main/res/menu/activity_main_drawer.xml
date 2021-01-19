@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/todayupdate"
+            android:icon="@drawable/ic_todayupdate"
+            android:title="@string/today_updates" />
+        <item
+            android:id="@+id/latestjobs"
+            android:icon="@drawable/ic_jobs"
+            android:title="@string/latest_jobs" />
+        <item
+            android:id="@+id/result"
+            android:icon="@drawable/ic_result"
+            android:title="@string/latest_result" />
+        <item
+            android:id="@+id/admitcard"
+            android:icon="@drawable/ic_id_card"
+            android:title="@string/admit_card" />
+        <item
+            android:id="@+id/notification"
+            android:icon="@drawable/ic_notification"
+            android:title="@string/notification_news" />
+        <item
+            android:id="@+id/universityform"
+            android:icon="@drawable/ic_university"
+            android:title="@string/university_form" />
+        <item
+            android:id="@+id/entranceexam"
+            android:icon="@drawable/ic_entrance"
+            android:title="@string/entrance_exams" />
+        <item
+            android:id="@+id/schoolarshipform"
+            android:icon="@drawable/ic_schoolarship"
+            android:title="@string/schoolarship_form" />
+        <item
+            android:id="@+id/onlineservice"
+            android:icon="@drawable/ic_onlineservice"
+            android:title="@string/online_services" />
+        <item
+            android:id="@+id/answerkey"
+            android:icon="@drawable/ic_answerkey"
+            android:title="@string/answer_key" />
+        <item
+            android:id="@+id/cutoff"
+            android:icon="@drawable/ic_cutoff"
+            android:title="@string/cut_off" />
+        <item
+            android:id="@+id/syllaus"
+            android:icon="@drawable/ic_syllabus"
+            android:title="@string/syllabus" />
+    </group>
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    tools:context=".MainActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/container_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="5dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:layout_scrollFlags="scroll|enterAlways">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:animateLayoutChanges="true"
+            android:focusedByDefault="true"
+            android:splitMotionEvents="true"
+            app:tabBackground="@drawable/selector_tab"
+            app:tabGravity="fill"
+            app:tabIndicatorGravity="center"
+            app:tabIndicatorHeight="0dp"
+            app:tabPaddingStart="10dp"
+            app:tabPaddingEnd="10dp"
+            app:tabMode="scrollable"
+            app:tabSelectedTextColor="@color/white"
+            app:tabTextColor="@color/purple_700"
+            tools:targetApi="o" />
+
+    </androidx.viewpager.widget.ViewPager>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

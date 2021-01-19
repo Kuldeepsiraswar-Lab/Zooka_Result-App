@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "354340899048",
+    "firebase_url": "https://zooka-education-a2b50.firebaseio.com",
+    "project_id": "zooka-education-a2b50",
+    "storage_bucket": "zooka-education-a2b50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354340899048:android:5881e78652231d33a2a15d",
+        "android_client_info": {
+          "package_name": "com.kuldeep.kuldeep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354340899048-kgvfovfo1nsf7d0ufaos9pv021r4si69.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kuldeep.kuldeep",
+            "certificate_hash": "9fb14b604488cb091077e4bcc7e9451da5151d16"
+          }
+        },
+        {
+          "client_id": "354340899048-qksd7p0fuscaocrrbq3p7f5fco4j17cf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8qZfMoL7qnsg9fGgMQgzkx1KHQu8GEHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354340899048-qksd7p0fuscaocrrbq3p7f5fco4j17cf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354340899048:android:d7d3c205cdff77eea2a15d",
+        "android_client_info": {
+          "package_name": "com.kuldeep.zookatech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354340899048-qksd7p0fuscaocrrbq3p7f5fco4j17cf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8qZfMoL7qnsg9fGgMQgzkx1KHQu8GEHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354340899048-qksd7p0fuscaocrrbq3p7f5fco4j17cf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354340899048:android:0f947bfed20ba145a2a15d",
+        "android_client_info": {
+          "package_name": "com.kuldeepsiraswar.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354340899048-qksd7p0fuscaocrrbq3p7f5fco4j17cf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8qZfMoL7qnsg9fGgMQgzkx1KHQu8GEHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354340899048-qksd7p0fuscaocrrbq3p7f5fco4j17cf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
